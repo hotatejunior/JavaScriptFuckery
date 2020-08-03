@@ -7,6 +7,8 @@
 
 <p id="demo">What?</p>
 
+<p id="allo"></p>
+
 <button type ="button" 
 
 onclick='document.getElementById("demo").innerHTML = "YUHYUH"'>Click mE</button>
@@ -17,8 +19,10 @@ onclick='document.getElementById("demo").innerHTML = "YUHYUH"'>Click mE</button>
 var xyz = {
  x:6,
  y:8,
- z:x+y
-}  // this is an object that contains the properties x, y , and z 
+
+}
+// this is an object that contains the properties x, y , and z 
+document.getElementById("allo").innerHTML=xyz.y+xyz.x
 </script>
 
 
