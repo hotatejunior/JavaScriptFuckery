@@ -12,5 +12,5 @@ xyz = {
 x = 6;
  y = 8; 
  z  =x + y;
-documnent.alert(x + y)
+document.alert(x + y)
 } 
