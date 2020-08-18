@@ -35,7 +35,6 @@
     background-color: #331a00;
     color: #000;
     font-size: 150%;
-    text-color: white;
 
 }
 
