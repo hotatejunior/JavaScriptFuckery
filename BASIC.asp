@@ -81,41 +81,10 @@
     border: 1px solid black;
 
 }
-
-/* .hLetter {
-	
-    border: 1px solid black;
-    text-align: center;
-    background-color: #9966ff;
-    font-size: 150%;
-
-}
-
-.fLetter {
-
- border: 1px solid black;
-    text-align: center;
-    background-color: #9966ff;
-    color: #000;
-    font-size: 150%;
-    
-    } */
-
 </style>
 
    
 <body>
-
-<!--<div class="header">
-	<div id="header" class="hLetter">A</div>
-	<div class="hLetter">A</div>
-	<div class="hLetter">A</div>
-	<div class="hLetter">A</div>
-	<div class="hLetter">A</div>
-	<div class="hLetter">A</div>
-	<div class="hLetter">A</div>
-	<div class="hLetter">A</div>
-</div> --> 
 
 
 <div class="container">
@@ -213,64 +182,33 @@
 
 </div>
 
-<!--<div class="footer">
-	<div id="footer" class="fLetter">A</div>
-	<div class="fLetter">A</div>
-	<div class="fLetter">A</div>
-	<div class="fLetter">A</div>
-	<div class="fLetter">A</div>
-	<div class="fLetter">A</div>
-	<div class="fLetter">A</div>
-	<div class="fLetter">A</div>
-</div>-->
-
-
-<!--<h2>Here we go</h2>
-
-<p>will this work?</p>
-
-<p id="demo">What?</p>
-
-<p id="allo"></p>
-
-<button type ="button" 
-
-onclick='document.getElementById("demo").innerHTML = "YUHYUH"'>Click mE</button>
-<p id="demo1"> This will say somethig</p> 
-<p id="demo2">This will say another things </p>
-
 <script>
-var xyz = {
- x:6,
- y:8,
+make2Darray(column,row) {
+var arr = new Array(column);
+for (var i=0; i< arr.length; i++) {
 
+    arr[i] = new Array(rows);
 }
-// this is an object that contains the properties x, y , and z 
-document.getElementById("allo").innerHTML=xyz.y+xyz.x
+return arr;
+// GENERIC: This will make a 2D array i.e. a nested array
+// with specified number of rows and columns
+}
 </script>
-
-
-<script> 
-function myFunction() { 
-
-document.getElementById("demo1").innerHTML = "Hey"; 
-document.getElementById("demo2").innerHTML = "Ur cute"; 
-
-} </script>
-
-<button type = "button" onclick='myFunction()'= "hello">clock</button>
-
-<p>Here I'll put a tip calculator</p>
-
-<p id="tip">How much should I pay with tip?</p>
 
 <script>
-    function tipCalc(bill){
-        return bill*1.15;
-    }
-   
+arrCoord= [  [0,1,2,3,4,5,6,7], 
+              [0,1,2,3,4,5,6,7],
+              [0,1,2,3,4,5,6,7],
+              [0,1,2,3,4,5,6,7],
+              [0,1,2,3,4,5,6,7],
+              [0,1,2,3,4,5,6,7],
+              [0,1,2,3,4,5,6,7],
+              [0,1,2,3,4,5,6,7]
+        ]
+//coordinates for the board can be referenced with this nested array
 </script>
 
-<button type="button" onclick ='document.getElementById("tip").innerHTML = tipCalc(50)'>Click for total</button>
--->
+
+
+
 </body>
