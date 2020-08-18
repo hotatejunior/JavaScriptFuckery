@@ -4,19 +4,26 @@
  /* I'm going to make a grid with CSS here */
 
  .container {
-    display:grid; 
-    max-width: 100%;
-    grid-gap: 0px;
-    padding: 1px;
-    background-color: white;
-    margin: 15%;
-    margin-bottom: 100%;
-    /*margin-right: 0%;
-    margin-left: 0%; */
-    block-size: 100%;
-    grid-template-columns: repeat(8, 12.5%);
-    grid-template-rows: repeat(10, 80%);  
 
+width: min(50vw, 50vh);
+height: min(50vw, 50vh);
+display: grid; 
+
+/* grid-gap: 0px;
+padding: 1px;
+background-color: white;
+
+
+
+/* margin: 10%;
+margin-bottom: 100%;
+/*margin-right: 0%;
+margin-left: 0%; 
+block-size: 100%;*/
+
+
+grid-template-columns: 	repeat(8, 1fr);
+grid-template-rows: repeat(8, 1fr); 
 
 
 }
